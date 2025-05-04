@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins";
+  background-color: #1e252b;
+}
+.container {
+  width: 1254px;
+  padding: 0 15px;
+  margin: 0 auto;
+  outline: solid orange;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 26px 105px 80px 120px;
+}
+.logo {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffffe5;
+}
+.logo img {
+  margin-right: 21px;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+.header-btn {
+  text-decoration: none;
+  padding: 12px 28px;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff8c;
+}
+.header-btn:hover {
+  background-color: #ff6e30;
+  border-radius: 8px;
+  color: #fdf5ff;
+}
+.header-link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff8c;
+}
+.header-small-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  gap: 41px;
+}
+.hero {
+  padding-top: 178px;
+  background-image: url(./images/hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
