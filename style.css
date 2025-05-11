@@ -135,6 +135,8 @@ body {
   display: flex;
   gap: 20px;
 }
+
+
 .tools {
   margin-top: 150px;
 }
@@ -242,11 +244,9 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
 .brands {
-  border: 2px solid;
-
-  padding: 55px 430px 160px;
+  border: 2px solid #2C353D33;
+  background: linear-gradient(55deg, rgba(40, 48, 54, 0.4) 0%, rgba(0, 0, 0, 0) 60%, rgba(40, 48, 54, 0.4) 100%);
   margin-top: 200px;
 }
 .brands-title {
@@ -256,4 +256,74 @@ body {
   letter-spacing: 0%;
   color: #ffffffcc;
   text-align: center;
+  margin-top: 55px;
+}
+.brands-list {
+  display: flex;
+  gap: 107px;
+  justify-content: center;
+}
+.brands-igm {
+  margin-top: 55px;
+  margin-bottom: 56px;
+}
+
+
+.newcomer {
+  margin-top: 200px;
+}
+.newcomer-title {
+font-weight: 500;
+font-size: 48px;
+line-height: 130%;
+letter-spacing: 0%;
+color: #FFFFFFE5;
+margin-bottom: 30px;
+}
+.newcomer-text {
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0%;
+color: #FFFFFF8C;
+margin-bottom: 60px;
+}
+.newcomer-button {
+font-weight: 500;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #ffffff;
+padding: 18px 40px;
+background-color: #FF6E30;
+border: none;
+border-radius: 7px;
+}
+.newcomer-list {
+  gap: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+.newcomer-name {
+font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffffc7;
+  margin-bottom: 10px;
+}
+.newcomer-price {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffa537;
+}
+.newcomer-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: #ffffff8c;
 }
