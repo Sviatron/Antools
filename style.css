@@ -63,7 +63,7 @@ body {
   line-height: 100%;
   letter-spacing: 0%;
   color: #ffffff8c;
-  transition: color 300ms linear
+  transition: color 300ms linear;
 }
 .header-link:hover {
   color: #ff6e30;
