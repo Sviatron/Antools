@@ -1,33 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  font-family: "Poppins";
-  background-color: #1e252b;
-}
-.container {
-  width: 1254px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
+
 .header {
   display: flex;
   justify-content: space-between;
   margin-top: 26px;
-}
-.logo {
-  display: flex;
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  color: #ffffffe5;
-  align-items: center;
-}
-.logo img {
-  margin-right: 11px;
 }
 .navigation {
   display: flex;
