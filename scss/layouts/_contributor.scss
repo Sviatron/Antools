@@ -1,0 +1,50 @@
+.contributor {
+  margin-bottom: 240px;
+}
+.contributor-title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffffe5;
+  margin-bottom: 25px;
+}
+.contributor-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff8c;
+  margin-bottom: 100px;
+}
+.contributor-form {
+  @extend %flex;
+  position: relative;
+}
+.contributor-input {
+  background-color: #283036;
+  border-radius: 15px;
+  border: 1.5px solid #ffffff1a;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff61;
+  padding: 22px 402px 21px 24px;
+}
+.contributor-btn {
+  background-color: #ff6e30;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  border: none;
+  padding: 12px 36px;
+  position: absolute;
+  left: 63%;
+  top: 12px;
+}

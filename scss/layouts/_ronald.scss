@@ -1,0 +1,22 @@
+.ronald {
+  @extend %flex;
+  margin-bottom: 250px;
+  background-image: url(./images/commacomma.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 153px;
+}
+.ronald-img {
+  width: 399px;
+  height: 492px;
+}
+.ronald-text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 1.5%;
+  color: #ffffffc7;
+  align-items: center;
+  padding: 128px 57px 184px;
+}

@@ -1,11 +1,10 @@
 .logo {
-  display: flex;
+  @extend %flex;
   font-weight: 600;
   font-size: 22px;
   line-height: 100%;
   letter-spacing: 0%;
   color: #ffffffe5;
-  align-items: center;
 }
 .logo img {
   margin-right: 11px;
