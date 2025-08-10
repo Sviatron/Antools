@@ -84,24 +84,24 @@
   border: none;
 }
 .tools-link {
+  @include button($padding: 9px 10px, $border-radius: 8px, $color: #ffffff8c);
   font-weight: 600;
   font-size: 16px;
   line-height: 100%;
   letter-spacing: 0%;
-  color: #ffffff8c;
-  padding: 9px 10px;
-  border-radius: 8px;
   transition: background-color 300ms linear;
 }
 .tools-link:hover {
-  background-color: #ff6e30;
-  padding: 9px 10px;
-  border-radius: 8px;
+  @include btn-hover(
+    $padding: 9px 10px,
+    $background-color: #ff6e30,
+    $border-radius: 8px,
+    $color: #ffffff
+  );
   font-weight: 600;
   font-size: 16px;
   line-height: 100%;
   letter-spacing: 0%;
-  color: #ffffff;
 }
 .tools-btn {
   font-weight: 500;

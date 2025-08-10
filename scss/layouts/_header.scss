@@ -11,18 +11,21 @@
   gap: 30px;
 }
 .header-btn {
+  @include button($padding: 12px 28px, $border-radius: 8px, $color: #ffffff8c);
   text-decoration: none;
-  padding: 12px 28px;
-  background-color: transparent;
   font-weight: 600;
   font-size: 16px;
   line-height: 100%;
   letter-spacing: 0%;
-  border-radius: 8px;
-  color: #ffffff8c;
   transition: background-color 300ms linear;
 }
 .header-btn:hover {
+  @include btn-hover(
+    $padding: 12px 28px,
+    $background-color: #ff6e30,
+    $border-radius: 8px,
+    $color: #fdf5ff
+  );
   background-color: #ff6e30;
   border-radius: 8px;
   color: #fdf5ff;
